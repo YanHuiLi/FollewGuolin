@@ -12,12 +12,21 @@
     <Button
         android:id="@+id/sendRequest"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="sendRequest"/>
 
     <ImageView
         android:id="@+id/image123"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
        />
+
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/NetWorkImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NetWorkImageView"/>
 
 </LinearLayout>
